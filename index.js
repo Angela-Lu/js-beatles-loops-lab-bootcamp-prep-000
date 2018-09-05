@@ -12,5 +12,7 @@ function johnLenninFacts(facts) {
   var i
   while (i < facts.length) {
     array.push(facts[i] + "!!!")
+    i++
   }
+  return array
 }
